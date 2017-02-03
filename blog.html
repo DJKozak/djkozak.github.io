@@ -25,43 +25,83 @@
   </head>
 
   <body>
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="#">Darryn Kozak</a>
-		</div>
-		<div class="collapse navbar-collapse" id="myNavbar">
-		  <ul class="nav navbar-nav">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#">Blood and Snowflake Trees</a></li>
-			<li class="dropdown">
-			  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Timeline Examples<span class="caret"></span></a>
-			  <ul class="dropdown-menu">
-				<li><a href="#">Page T-1</a></li>
-				<li><a href="#">Page T-2</a></li>
-				<li><a href="#">Page T-3</a></li>
-			  </ul>
-			</li>
-			<li><a href="#">Carousel Examples</a></li>
-		  </ul>
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-		  </ul>
-		</div>
-	  </div>
-	</nav>
+    <nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+  		<div class="navbar-header">
+  		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  			<span class="icon-bar"></span>
+  		  </button>
+  		  <a class="navbar-brand" href="#">Darryn Kozak</a>
+  		</div>
+  		<div class="collapse navbar-collapse" id="myNavbar">
+
+  		  <!-- *********************************************************
+  			   Nav Left
+  			   ********************************************************* -->
+  		  <ul class="nav navbar-nav">
+  			<li class="active"><a href="#">Home</a></li>
+  			<li><a href="blog.html">Sanguine Snowflake Trees</a></li>
+
+  			<li class="dropdown">
+  			  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Carousel Examples<span class="caret"></span></a>
+  			  <ul class="dropdown-menu">
+  				<li><a href="carousel.html">Carousel Example A</a></li>
+  				<li><a href="carouselB.html">Carousel Example B</a></li>
+  				<li><a href="carouselC.html">Carousel Example C</a></li>
+  			  </ul>
+  			</li>
+
+  			<li><a href="timeline.html">Timeline Example</a></li>
+  		  </ul>
+
+  		  <!-- *********************************************************
+  			   Nav Right
+  			   ********************************************************* -->
+  		  <ul class="nav navbar-nav navbar-right">
+  			<!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+  			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+  			<li>
+  				<a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"> </span> About this page...</a>
+
+  				<!-- Modal -->
+  				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  				  <div class="modal-dialog" role="document">
+  					<div class="modal-content">
+  					  <div class="modal-header">
+  						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  						<h4 class="modal-title" id="myModalLabel">About this page:</h4>
+  					  </div>
+
+  					  <!-- INDEX PAGE -->
+  					  <div class="modal-body">The general structure of this page was originally based on the W3Schools' <a href="http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_portfolio&stacked=h"> Bootstrap "Portfolio" Template</a>.  The Navigation Bar was based on multiple examples from W3Schools' <a href="http://www.w3schools.com/bootstrap/bootstrap_navbar.asp">Bootstrap Navigation Bar tutorial page.</a>  <p></p>
+  					  The snowflake, time spiral and carousel images are from <a href="https://pixabay.com"> Pixabay.</a>
+  					  </div>
+
+  					 <!-- TIMELINE JOHNNY CASH SUN SINGLES -------------------------------------- -->
+  					<!-- 	   <div class="modal-body">The general structure of this page was originally based on a timline example by <a href="http://www.facebook.com/sergiomandrake"> Sergio Mandrake</a>, but there are many very similar examples online, so it's not clear if he was the originator or not.  This <a href="http://bootsnipp.com/snippets/featured/timeline-responsive"> example</a> by "luisrudge" was helpful as well, and may have been the original as well.  The Navigation Bar was based on multiple examples from W3Schools' <a href="http://www.w3schools.com/bootstrap/bootstrap_navbar.asp">Bootstrap Navigation Bar tutorial page.</a>
+  					<p></p>
+  					  The record label images are from <a href="https://discogs.com"> Disocgs</a> and <a href="http://www.boija.com/skivor/sun_index.htm"> Sun Records Discography</a>. The image of Johnny Cash himself comes from <a href="https://en.wikipedia.org/wiki/Johnny_Cash_Sun_Records_discography#/media/File:Johnny_Cash_Promotional_Photo.jpg"> Wikipedia.</a>
+  					  </div> -->
+
+  					  <div class="modal-footer">
+  						<button type="button" class="btn btn-default btn-primary" data-dismiss="modal">Close</button>
+  					  </div>
+  					</div>
+  				  </div>
+  				</div>
+  			</li>
+  		  </ul>
+  		</div>
+  	  </div>
+  	</nav>
 
 	<!-- BLOG Starts here  -->
 	<div class="container">
 
       <div class="blog-header">
-        <h1 class="blog-title">Sanguine Snowflake Trees Blog</h1>
+        <h1 class="blog-title">Sanguine Snowflake Trees</h1>
         <p class="lead blog-description">A blog about visualizing genealogy data</p>
       </div>
 
@@ -76,10 +116,10 @@
             <p>(This post will be about how I started doing genealogy.)</p>
             <hr>
             <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-            <blockquote>
+            <!--<blockquote>
               <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
             </blockquote>
-            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>-->
 
           </div><!-- /.blog-post -->
 
@@ -96,7 +136,7 @@
             <h2 class="blog-post-title">Pedigree Collapse</h2>
             <p class="blog-post-meta">Post #3 by <a href="#">Darryn</a></p>
 
-            <p>(This post will be about Pedigree Collapse, and important, common occurence that results in all people being more closely related than they would imagine.)</p>
+            <p>(This post will be about Pedigree Collapse, an important, common occurence that results in all people being more closely related than they would imagine.)</p>
             <hr>
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           </div><!-- /.blog-post -->
@@ -110,12 +150,12 @@
             <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           </div><!-- /.blog-post -->
 
-          <nav>
+          <!--<nav>
             <ul class="pager">
               <li><a href="#">Previous</a></li>
               <li><a href="#">Next</a></li>
             </ul>
-          </nav>
+          </nav>-->
 
         </div><!-- /.blog-main -->
 
@@ -131,11 +171,11 @@
               <li><a href="#">Post #2 - Sanguinity</a></li>
               <li><a href="#">Post #3 - Pedigree Collapse</a></li>
               <li><a href="#">Post #4 - How Many Humans?</a></li>
-              <li><a href="#">Post #5</a></li>
-              <li><a href="#">Post #6</a></li>
-              <li><a href="#">Post #7</a></li>
-              <li><a href="#">Post #8</a></li>
-              <li><a href="#">Post #9</a></li>
+              <li><a href="#">Post #5 - TBD</a></li>
+              <li><a href="#">Post #6 - TBD</a></li>
+              <li><a href="#">Post #7 - TBD</a></li>
+              <li><a href="#">Post #8 - TBD</a></li>
+              <li><a href="#">Post #9 - TBD</a></li>
             </ol>
           </div>
         </div><!-- /.blog-sidebar -->

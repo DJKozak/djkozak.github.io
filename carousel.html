@@ -11,24 +11,95 @@
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	
+
 	<!-- My styles -->
 	<link rel="stylesheet" type="text/css" href="css/carousel.css">
-	
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-	
+
 	<!-- Carousel example from
 	http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-carousel.php -->
-	
-	
+
+
   </head>
   <body>
-    <!-- <h1>Hello, world!</h1> -->
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Darryn Kozak</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+        <!-- *********************************************************
+           Nav Left
+           ********************************************************* -->
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="blog.html">Sanguine Snowflake Trees</a></li>
+
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Carousel Examples<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+          <li><a href="carousel.html">Carousel Example A</a></li>
+          <li><a href="carouselB.html">Carousel Example B</a></li>
+          <li><a href="carouselC.html">Carousel Example C</a></li>
+          </ul>
+        </li>
+
+        <li><a href="timeline.html">Timeline Example</a></li>
+        </ul>
+
+        <!-- *********************************************************
+           Nav Right
+           ********************************************************* -->
+        <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+        <li>
+          <a href="#" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-info-sign"> </span> About this page...</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">About this page:</h4>
+              </div>
+
+              <!-- INDEX PAGE -->
+              <div class="modal-body">The general structure of this page was originally based on the W3Schools' <a href="http://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_portfolio&stacked=h"> Bootstrap "Portfolio" Template</a>.  The Navigation Bar was based on multiple examples from W3Schools' <a href="http://www.w3schools.com/bootstrap/bootstrap_navbar.asp">Bootstrap Navigation Bar tutorial page.</a>  <p></p>
+              The snowflake, time spiral and carousel images are from <a href="https://pixabay.com"> Pixabay.</a>
+              </div>
+
+             <!-- TIMELINE JOHNNY CASH SUN SINGLES -------------------------------------- -->
+            <!-- 	   <div class="modal-body">The general structure of this page was originally based on a timline example by <a href="http://www.facebook.com/sergiomandrake"> Sergio Mandrake</a>, but there are many very similar examples online, so it's not clear if he was the originator or not.  This <a href="http://bootsnipp.com/snippets/featured/timeline-responsive"> example</a> by "luisrudge" was helpful as well, and may have been the original as well.  The Navigation Bar was based on multiple examples from W3Schools' <a href="http://www.w3schools.com/bootstrap/bootstrap_navbar.asp">Bootstrap Navigation Bar tutorial page.</a>
+            <p></p>
+              The record label images are from <a href="https://discogs.com"> Disocgs</a> and <a href="http://www.boija.com/skivor/sun_index.htm"> Sun Records Discography</a>. The image of Johnny Cash himself comes from <a href="https://en.wikipedia.org/wiki/Johnny_Cash_Sun_Records_discography#/media/File:Johnny_Cash_Promotional_Photo.jpg"> Wikipedia.</a>
+              </div> -->
+
+              <div class="modal-footer">
+              <button type="button" class="btn btn-default btn-primary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            </div>
+          </div>
+        </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
 
 	<div class="bs-example">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -37,7 +108,7 @@
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#myCarousel" data-slide-to="1"></li>
 				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>   
+			</ol>
 			<!-- Wrapper for carousel items -->
 			<div class="carousel-inner">
 				<div class="item active">
@@ -66,6 +137,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- <script src="js/bootstrap.min.js"></script> -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
+
   </body>
 </html>
