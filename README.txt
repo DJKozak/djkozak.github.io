@@ -7,7 +7,7 @@ https://bootstrapbay.com/blog/google-web-fonts/
 index - images are not centered since we only have three (instead of four)
 index - h1 font size is too large on big view
 
-all carousels - See the class lecture about carousels and follow the usability guidelines
+all carousels - See the class lecture about carousels and follow the usability guidelines - turn off the automatic start feature
 all carousels - style all the images -- maybe as thumbnails, at least provide some sort of decent margin
 
 timeline - Use a smaller number of years than originally (don't have time to do it all for the class)
