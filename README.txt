@@ -6,6 +6,7 @@ https://bootstrapbay.com/blog/google-web-fonts/
 about page - make it unique on each page
 
 index - images are not centered since we only have three (instead of four)
+index - h1 font size is too large on big view
 
 all carousels - See the class lecture about carousels and follow the usability guidelines
 
