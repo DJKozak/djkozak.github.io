@@ -18,3 +18,5 @@ timeline - Year shadow boxes should fit better
 timeline - Year circles need an icon; maybe a clock or calendar symbol?
 
 img's - check the alt and title properties on all of them to be sure they are correct
+
+nav - the "Darryn Kozak" brand button does not do anything.  Should it?
