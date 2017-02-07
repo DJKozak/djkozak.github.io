@@ -267,6 +267,32 @@
     </ul>
 </div>
 
+
+    <div class="container">
+      <div class="page-header">
+        <h2>Learn more about Johnny Cash</h2>
+      </div>
+      <p>The next time you are in Nashville, Tennessee be sure to visit the Johnny Cash Museum.  See map below for directions.</p>
+      <div id="map"></div>
+      <script>
+               function initMap() {
+                 var uluru = {lat: 36.161046, lng: -86.775666};
+                 var map = new google.maps.Map(document.getElementById('map'), {
+                   zoom: 18,
+                   center: uluru
+                 });
+                 var marker = new google.maps.Marker({
+                   position: uluru,
+                   map: map
+                 });
+               }
+      </script>
+             <!--map api key: AIzaSyC39AoJSvKx2KRL7Kk9hEoqu_l_wXHXyYg-->
+             <script async defer
+             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC39AoJSvKx2KRL7Kk9hEoqu_l_wXHXyYg&callback=initMap">
+             </script>
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
