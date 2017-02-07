@@ -10,10 +10,10 @@ index - h1 font size is too large on big view
 all carousels - See the class lecture about carousels and follow the usability guidelines - turn off the automatic start feature
 all carousels - style all the images -- maybe as thumbnails, at least provide some sort of decent margin
 
-timeline - Use a smaller number of years than originally (don't have time to do it all for the class)
 timeline - Use a carousel to flip between A and B sides of each single
 timeline - Year shadow boxes should fit better
 timeline - Year circles need an icon; maybe a clock or calendar symbol?
+timeline - Update the alt text on the flip sides of the images
 
 img's - check the alt and title properties on all of them to be sure they are correct
 
