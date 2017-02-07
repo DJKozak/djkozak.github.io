@@ -14,6 +14,7 @@ timeline - Use a carousel to flip between A and B sides of each single
 timeline - Year shadow boxes should fit better
 timeline - Year circles need an icon; maybe a clock or calendar symbol?
 timeline - Update the alt text on the flip sides of the images
+timeline - carousel usability: follow class instructions, what about on phone -- can you still switch images?
 
 img's - check the alt and title properties on all of them to be sure they are correct
 
