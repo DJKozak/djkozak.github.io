@@ -83,6 +83,8 @@
               <div class="modal-body">The general structure of this page was originally based on a timline example by <a href="http://www.facebook.com/sergiomandrake"> Sergio Mandrake</a>, but there are many very similar examples online, so it's not clear if he was the originator or not.  This <a href="http://bootsnipp.com/snippets/featured/timeline-responsive"> example</a> by "luisrudge" was helpful as well, and for all I know may have been the original as well.
               <p></p>
                 The record label images are from <a href="https://discogs.com"> Discogs</a> and <a href="http://www.boija.com/skivor/sun_index.htm"> Sun Records Discography</a>. The image of Johnny Cash himself comes from <a href="https://en.wikipedia.org/wiki/Johnny_Cash_Sun_Records_discography#/media/File:Johnny_Cash_Promotional_Photo.jpg"> Wikipedia.</a>
+                <p></p>
+                The map was added using the instructions found on <a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map">google</a>.
                 </div>
 
               <div class="modal-footer">
@@ -275,8 +277,8 @@
       <p>The next time you are in Nashville, Tennessee be sure to visit the Johnny Cash Museum.  See map below for directions.</p>
 
       <div class="container">
-            <div id="map"></div>
-      <script>
+        <div id="map"></div>
+        <script>
                function initMap() {
                  var uluru = {lat: 36.161046, lng: -86.775666};
                  var map = new google.maps.Map(document.getElementById('map'), {
@@ -288,14 +290,12 @@
                    map: map
                  });
                }
-      </script>
+        </script>
              <!--map api key: AIzaSyC39AoJSvKx2KRL7Kk9hEoqu_l_wXHXyYg-->
              <script async defer
              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC39AoJSvKx2KRL7Kk9hEoqu_l_wXHXyYg&callback=initMap">
              </script>
     </div>
-
-    <p>See this!  be sure to delete it.</p>
   </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
